@@ -31,8 +31,7 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>com.genuitec.eclipse.j2eedt.core.DeploymentDescriptorValidator
-			</name>
+			<name>com.genuitec.eclipse.j2eedt.core.DeploymentDescriptorValidator</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -41,13 +40,25 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>com.genuitec.eclipse.ast.deploy.core.DeploymentBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.genuitec.eclipse.hibernate.HibernateBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>com.genuitec.eclipse.hibernate.hibernatenature</nature>
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
 		<nature>com.genuitec.eclipse.j2eedt.core.webnature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>com.genuitec.eclipse.cross.easystruts.eclipse.easystrutsnature</nature>
 	</natures>
 </projectDescription>
